@@ -54,10 +54,10 @@ public class Blur {
 		// colors on the topmost layer of the stack are either added on
 		// or reduced by one, depending on if they are on the right or
 		// on the left side of the stack.
-		//
+	//	//
 		// If you are using this algorithm in your code please add
 		// the following line:
-		//
+		//////
 		// Stack Blur Algorithm by Mario Klingemann <mario@quasimondo.com>
 
 		Bitmap bitmap = sentBitmap.copy(sentBitmap.getConfig(), true);
