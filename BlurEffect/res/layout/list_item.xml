@@ -4,11 +4,10 @@
     android:id="@android:id/text1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:textAppearance="?android:attr/textAppearanceListItemSmall"
-    android:gravity="center_vertical"
-    android:textColor="#eee"
     android:background="#99333333"
-    android:paddingStart="10dp"
-    android:paddingEnd="10dp"
+    android:gravity="center_vertical"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
-/>
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:textColor="#eee" />
